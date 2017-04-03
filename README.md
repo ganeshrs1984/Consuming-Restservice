@@ -1,6 +1,16 @@
 # Framework
     Springboot
     Java
+# Design Pattern
+   Factory
+   Singleton
+   MVC
+# Rest Methods
+   Get
+   Put
+   Post
+# Database
+   H2 Inbuild Memory
 # Restservice
      Consumes Restservice
      RestServiceTemplate.java uses RestTemplate to consume restservice
@@ -19,7 +29,8 @@
 # Logging : Log4J 
       Following MDC Pattern for logging
       Config details in Log4J.properties
-
+# Output
+   Json Response
 # Splunk Reports 
 
 	https://github.com/ganeshrs1984/Consuming-Restservice/blob/master/workspace-pricing/Splunk%20Dashboard%20-%20Product%20RestService.pdf
