@@ -12,9 +12,9 @@
 # Database
    H2 Inbuild Memory
 # Restservice
-     Consumes Restservice
-     RestServiceTemplate.java uses RestTemplate to consume restservice
-     It is designed to consume any restservice calls
+     It Internally calls and consumes a Restservice
+     RestServiceTemplate.java uses RestTemplate
+     Generics - RestServiceTemplate.java uses Generics to work with any restservice 
 # Hosted
       Hosted in AWS EC2
 # Sample URLS
@@ -24,7 +24,7 @@
      PUT : http://52.36.153.114:8080/product-services/product/13867787
            {"productId":13867787,"price":39.1,"code":"USD"}
 # Validation :
-      The Post body and Get URL path variables are validated
+      The Request Body for post and Get URL path variables has validation in the code
 
 # Logging : Log4J 
       Following MDC Pattern for logging
